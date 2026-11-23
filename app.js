@@ -11,7 +11,7 @@ const CONFIG = {
 
   // Ponlo en true cuando ya hayas puesto tu Access Token de Mercado Pago en el backend.
   // (En modo prueba la opción de tarjeta se muestra igual, para que veas cómo queda.)
-  mercadoPago: false,
+  mercadoPago: true,
 
   // WhatsApp solo para DUDAS (opcional, no se usa para comprar). Ej.: 56912345678
   whatsapp: "",
