@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Ilustración: perro sobre manta refrigerante">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8f7fc"/>
+      <stop offset="1" stop-color="#c9ecf7"/>
+    </linearGradient>
+    <linearGradient id="manta" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5cc8ea"/>
+      <stop offset="1" stop-color="#0b7fa8"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#bg)"/>
+  <circle cx="500" cy="100" r="50" fill="#ffc46b"/>
+  <g stroke="#ffc46b" stroke-width="8" stroke-linecap="round">
+    <line x1="500" y1="25" x2="500" y2="5"/><line x1="575" y1="100" x2="595" y2="100"/>
+    <line x1="553" y1="47" x2="567" y2="33"/><line x1="447" y1="47" x2="433" y2="33"/>
+  </g>
+  <!-- manta -->
+  <path d="M90 400 L510 400 L560 500 L40 500 Z" fill="url(#manta)"/>
+  <g fill="#ffffff" opacity=".5">
+    <text x="130" y="470" font-size="34">❄</text><text x="280" y="485" font-size="28">❄</text><text x="430" y="465" font-size="34">❄</text>
+  </g>
+  <!-- perro -->
+  <ellipse cx="300" cy="395" rx="140" ry="42" fill="#d9a066"/>
+  <circle cx="190" cy="350" r="62" fill="#d9a066"/>
+  <ellipse cx="150" cy="320" rx="22" ry="44" fill="#a86f3c" transform="rotate(-25 150 320)"/>
+  <ellipse cx="232" cy="318" rx="22" ry="44" fill="#a86f3c" transform="rotate(25 232 318)"/>
+  <path d="M170 350 q8 -8 16 0" stroke="#1d2a33" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M200 350 q8 -8 16 0" stroke="#1d2a33" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <ellipse cx="192" cy="375" rx="12" ry="8" fill="#1d2a33"/>
+  <path d="M180 390 q12 10 24 0" stroke="#1d2a33" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M435 385 q40 -30 30 -60" stroke="#d9a066" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <text x="300" y="565" text-anchor="middle" font-family="Nunito, sans-serif" font-size="22" fill="#075e7d" font-weight="700">Reemplazar por foto del proveedor</text>
+</svg>

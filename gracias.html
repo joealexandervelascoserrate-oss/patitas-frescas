@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Tu pedido | Patitas Frescas</title>
+  <link rel="icon" href="img/mark-cara.svg?v=2" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=6">
+</head>
+<body data-pagina="gracias">
+  <div class="aviso-prueba" data-modo-prueba hidden>Modo prueba: no se cobró nada ni se guardó el pedido.</div>
+  <header class="header">
+    <div class="contenedor header__fila">
+      <a href="index.html" class="logo"><img src="img/mark-cara.svg?v=2" alt="" width="42" height="42"><span data-marca>Patitas Frescas</span></a>
+    </div>
+  </header>
+
+  <main class="seccion">
+    <div class="contenedor contenedor--angosto">
+
+      <div class="confirmacion" data-caso="cargando">
+        <img src="img/mark.svg?v=2" alt="" width="150" height="150">
+        <h1>Un momento…</h1>
+      </div>
+
+      <div class="confirmacion" data-caso="ok" hidden>
+        <img src="img/mark.svg?v=2" alt="" width="150" height="150">
+        <h1>¡Pago recibido!</h1>
+        <p class="confirmacion__num">Pedido N° <strong data-pedido></strong></p>
+        <p>Tu manta ya está pagada y el envío está incluido. Te enviamos la confirmación y la fecha estimada de entrega a tu correo.</p>
+        <a href="index.html" class="confirmacion__otro">Volver a la tienda</a>
+      </div>
+
+      <div class="confirmacion" data-caso="confirmado" hidden>
+        <img src="img/mark.svg?v=2" alt="" width="150" height="150">
+        <h1>¡Pedido confirmado!</h1>
+        <p class="confirmacion__num">Pedido N° <strong data-pedido></strong></p>
+        <p>Ya lo estamos preparando. Llega <strong data-entrega>en los próximos días</strong> y pagas al recibir.</p>
+        <a href="index.html" class="confirmacion__otro">Volver a la tienda</a>
+      </div>
+
+      <div class="confirmacion" data-caso="pendiente" hidden>
+        <img src="img/mark.svg?v=2" alt="" width="150" height="150">
+        <h1>Tu pago está en proceso</h1>
+        <p class="confirmacion__num">Pedido N° <strong data-pedido></strong></p>
+        <p>Apenas se apruebe, preparamos tu pedido y te avisamos por correo.</p>
+        <a href="index.html" class="confirmacion__otro">Volver a la tienda</a>
+      </div>
+
+      <div class="confirmacion" data-caso="error" hidden>
+        <h1>No se completó el pago</h1>
+        <p>No te cobramos nada. Puedes intentarlo de nuevo con otra tarjeta o elegir <strong>pagar al recibir</strong>.</p>
+        <a href="index.html#pedido" class="btn btn--block">Volver a intentar</a>
+      </div>
+
+      <div class="confirmacion" data-caso="confirmar-error" hidden>
+        <h1>No pudimos confirmar tu pedido</h1>
+        <p>El enlace no es válido o ya venció. Abre de nuevo el correo y presiona el botón, o haz el pedido otra vez.</p>
+        <a href="index.html#pedido" class="btn btn--block">Ir a la tienda</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer"><div class="contenedor"><p class="footer__logo" data-marca>Patitas Frescas</p><p><a href="politicas.html">Cambios, devoluciones y garantía</a></p></div></footer>
+
+  <script src="app.js?v=5"></script>
+</body>
+</html>
