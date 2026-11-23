@@ -7,7 +7,7 @@ const CONFIG = {
 
   // URL del backend gratis (Google Apps Script → Implementar → Aplicación web → URL que termina en /exec).
   // Paso a paso en backend/INSTRUCCIONES.md. Mientras esté vacío, la tienda funciona en "modo prueba".
-  backend: "",
+  backend: "https://script.google.com/macros/s/AKfycbx8De4OVnemT7DxfBpkInpout2hh2ViNET1XyxWQ-71zrXfppES3vhHEdhqSYhhRAfU/exec",
 
   // Ponlo en true cuando ya hayas puesto tu Access Token de Mercado Pago en el backend.
   // (En modo prueba la opción de tarjeta se muestra igual, para que veas cómo queda.)
